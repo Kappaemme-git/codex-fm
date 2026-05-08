@@ -1,6 +1,6 @@
 {
   "name": "codex-fm",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Open the Codex FM lo-fi radio website in your browser.",
   "private": false,
   "bin": {
@@ -28,6 +28,6 @@
     "type": "git",
     "url": "git+https://github.com/Kappaemme-git/codex-fm.git"
   },
-  "homepage": "https://kappaemme-git.github.io/codex-fm/",
+  "homepage": "https://codex-fm.vercel.app/",
   "license": "MIT"
 }

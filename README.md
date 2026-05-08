@@ -4,7 +4,7 @@ Codex FM is a Codex-themed lo-fi radio website with a pixel-art browser experien
 
 Live site:
 
-https://kappaemme-git.github.io/codex-fm/
+https://codex-fm.vercel.app/
 
 ## Run With NPX
 

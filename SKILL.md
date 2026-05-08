@@ -10,7 +10,7 @@ Use this skill to open the Codex FM lo-fi radio website styled like a YouTube mu
 ## Workflow
 
 1. Run `scripts/open-codex-fm.sh`.
-2. The script opens `https://kappaemme-git.github.io/codex-fm/` automatically in Google Chrome on macOS, with fallback to the default browser.
+2. The script opens `https://codex-fm.vercel.app/` automatically in Google Chrome on macOS, with fallback to the default browser.
 3. Only tell the user the URL if the browser did not open.
 
 ## Notes

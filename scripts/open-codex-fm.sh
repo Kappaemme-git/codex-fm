@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SITE_URL="https://kappaemme-git.github.io/codex-fm/"
+SITE_URL="https://codex-fm.vercel.app/"
 
 if command -v open >/dev/null 2>&1; then
   open -a "Google Chrome" "$SITE_URL" >/dev/null 2>&1 || open "$SITE_URL" >/dev/null 2>&1 || true

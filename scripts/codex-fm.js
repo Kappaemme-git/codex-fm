@@ -2,7 +2,7 @@
 
 const { execFile } = require("child_process");
 
-const siteUrl = "https://kappaemme-git.github.io/codex-fm/";
+const siteUrl = "https://codex-fm.vercel.app/";
 
 function openUrl(url) {
   const platform = process.platform;
