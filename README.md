@@ -1,6 +1,6 @@
 # Codex FM
 
-Codex FM is a local Codex-themed lo-fi radio skill with a pixel-art browser experience.
+Codex FM is a Codex-themed lo-fi radio website with a pixel-art browser experience.
 
 ## Run With NPX
 
@@ -30,4 +30,4 @@ apri Codex FM
 
 ## Deploy On Vercel
 
-Import this GitHub repository in Vercel. The included `vercel.json` serves the radio from `assets/codex-fm`.
+Import this GitHub repository in Vercel. It is a plain static site: `index.html`, `styles.css`, `script.js`, and `favicon.svg` are at the repository root.

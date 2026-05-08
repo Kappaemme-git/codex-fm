@@ -9,7 +9,7 @@ while [[ -L "$SOURCE" ]]; do
 done
 
 ROOT_DIR="$(cd "$(dirname "$SOURCE")/.." && pwd)"
-APP_FILE="$ROOT_DIR/assets/codex-fm/index.html"
+APP_FILE="$ROOT_DIR/index.html"
 
 if [[ ! -f "$APP_FILE" ]]; then
   echo "Codex FM asset not found: $APP_FILE" >&2

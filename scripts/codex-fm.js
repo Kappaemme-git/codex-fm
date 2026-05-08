@@ -5,7 +5,7 @@ const path = require("path");
 const { execFile } = require("child_process");
 
 const rootDir = path.resolve(__dirname, "..");
-const appFile = path.join(rootDir, "assets", "codex-fm", "index.html");
+const appFile = path.join(rootDir, "index.html");
 
 function fileUrl(filePath) {
   const resolved = path.resolve(filePath).replace(/\\/g, "/");

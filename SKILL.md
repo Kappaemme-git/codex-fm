@@ -17,5 +17,5 @@ Use this skill to open a local Codex lo-fi radio page styled like a YouTube musi
 
 - The radio is fully local and does not embed YouTube or external audio.
 - Audio starts only after the user presses Play, because browsers block autoplay audio.
-- The web app lives in `assets/codex-fm/`.
+- The web app lives at the repository root: `index.html`, `styles.css`, `script.js`, and `favicon.svg`.
 - The page opens from disk, so no dev server or background process is required.

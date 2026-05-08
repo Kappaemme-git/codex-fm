@@ -1,6 +1,6 @@
 {
   "name": "codex-fm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Open a Codex-themed lo-fi radio in your browser.",
   "private": false,
   "bin": {
@@ -11,7 +11,10 @@
     "pack:dry": "npm pack --dry-run"
   },
   "files": [
-    "assets",
+    "index.html",
+    "styles.css",
+    "script.js",
+    "favicon.svg",
     "scripts/codex-fm.js"
   ],
   "keywords": [
