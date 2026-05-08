@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codex FM</title>
+    <meta
+      name="description"
+      content="Codex FM: una radio lo-fi in stile video pixel-art, autonoma e generata nel browser."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page" aria-labelledby="title">
+      <section class="youtube-shell" aria-label="Codex FM video player">
+        <div class="topbar">
+          <div class="hamburger" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div class="brand"><span class="play-dot"></span><span>YouTube</span></div>
+          <button class="mic" type="button" aria-label="Microfono decorativo"></button>
+        </div>
+
+        <div class="stage">
+          <div class="focus-timer" aria-live="polite">
+            <span id="focusTimer">00:00</span>
+            <b>focus</b>
+          </div>
+
+          <div class="dot-scene" aria-hidden="true">
+            <div class="dot-frame frame-left"></div>
+            <div class="dot-frame frame-center"></div>
+            <div class="dot-frame frame-right"></div>
+            <div class="dot-frame shelf-a"></div>
+            <div class="dot-frame shelf-b"></div>
+            <div class="dot-frame desk-left"></div>
+            <div class="dot-frame desk-right"></div>
+            <div class="dot-plant"></div>
+            <div class="dot-lamp"></div>
+            <div class="dot-radio"></div>
+          </div>
+
+          <div class="codex-character" aria-label="Robottino pixel Codex al lavoro">
+            <div class="bot-shadow"></div>
+            <div class="codex-cloud">
+              <span class="cloud-lobe lobe-a"></span>
+              <span class="cloud-lobe lobe-b"></span>
+              <span class="cloud-lobe lobe-c"></span>
+              <span class="cloud-lobe lobe-d"></span>
+              <span class="terminal-mark prompt">&gt;</span>
+              <span class="terminal-mark cursor-line"></span>
+            </div>
+            <div class="antenna"></div>
+            <div class="bot-arm arm-left"></div>
+            <div class="bot-arm arm-right"></div>
+            <div class="bot-body">
+              <span class="status-light"></span>
+              <span class="body-line"></span>
+            </div>
+            <div class="bot-leg left"></div>
+            <div class="bot-leg right"></div>
+            <div class="keyboard"></div>
+          </div>
+        </div>
+
+        <div class="video-meta" id="radio">
+          <h1 id="title">Codex FM <span>♪</span> music for thinking and building</h1>
+
+          <div class="channel-row">
+            <div class="channel">
+              <div class="avatar" aria-hidden="true">
+                <span class="avatar-cloud">
+                  <i>&gt;</i>
+                  <b></b>
+                </span>
+              </div>
+              <div>
+                <strong>Codex</strong>
+                <span>lo-fi browser station</span>
+              </div>
+            </div>
+
+            <div class="controls">
+              <button class="play-button" id="playButton" type="button" aria-pressed="false">
+                <span class="play-icon" aria-hidden="true"></span>
+                <span id="playLabel">Play</span>
+              </button>
+              <label class="volume-control" for="volume">
+                <span>Vol</span>
+                <input id="volume" type="range" min="0" max="100" value="54" />
+              </label>
+              <button class="pill" id="nextTrack" type="button">Next</button>
+              <span class="track-chip" id="trackChip">01 Refactor Rain</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

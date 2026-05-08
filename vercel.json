@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/assets/codex-fm/index.html"
+    },
+    {
+      "source": "/styles.css",
+      "destination": "/assets/codex-fm/styles.css"
+    },
+    {
+      "source": "/script.js",
+      "destination": "/assets/codex-fm/script.js"
+    },
+    {
+      "source": "/favicon.svg",
+      "destination": "/assets/codex-fm/favicon.svg"
+    }
+  ]
+}
