@@ -2,6 +2,12 @@
 
 Codex FM is a local Codex-themed lo-fi radio skill with a pixel-art browser experience.
 
+## Run With NPX
+
+```bash
+npx codex-fm
+```
+
 ## Open Locally
 
 ```bash

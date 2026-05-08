@@ -1,0 +1,30 @@
+{
+  "name": "codex-fm",
+  "version": "0.1.0",
+  "description": "Open a Codex-themed lo-fi radio in your browser.",
+  "private": false,
+  "bin": {
+    "codex-fm": "scripts/codex-fm.js"
+  },
+  "scripts": {
+    "start": "node scripts/codex-fm.js",
+    "pack:dry": "npm pack --dry-run"
+  },
+  "files": [
+    "assets",
+    "scripts/codex-fm.js"
+  ],
+  "keywords": [
+    "codex",
+    "lofi",
+    "radio",
+    "focus",
+    "music"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kappaemme-git/codex-fm.git"
+  },
+  "homepage": "https://github.com/Kappaemme-git/codex-fm#readme",
+  "license": "MIT"
+}
