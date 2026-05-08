@@ -10,8 +10,8 @@ Use this skill to open the Codex FM lo-fi radio website styled like a YouTube mu
 ## Workflow
 
 1. Run `scripts/open-codex-fm.sh`.
-2. The script opens `https://codex-fm.vercel.app/` automatically in Google Chrome on macOS, with fallback to the default browser.
-3. Only tell the user the URL if the browser did not open.
+2. Always reply with the URL: `https://codex-fm.vercel.app/`.
+3. If the browser did not visibly open, tell the user to open that URL manually.
 
 ## Notes
 
