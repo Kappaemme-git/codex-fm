@@ -2,17 +2,17 @@
 
 Codex FM is a Codex-themed lo-fi radio website with a pixel-art browser experience.
 
+Live site:
+
+https://kappaemme-git.github.io/codex-fm/
+
 ## Run With NPX
 
 ```bash
 npx codex-fm
 ```
 
-## Open Locally
-
-```bash
-scripts/open-codex-fm.sh
-```
+This opens the public Codex FM website in your browser.
 
 ## Install As A Codex Skill
 
@@ -28,6 +28,6 @@ Then ask Codex:
 apri Codex FM
 ```
 
-## Deploy On Vercel
+## Deploy Elsewhere
 
-Import this GitHub repository in Vercel. It is a plain static site: `index.html`, `styles.css`, `script.js`, and `favicon.svg` are at the repository root.
+This is a plain static site: `index.html`, `styles.css`, `script.js`, and `favicon.svg` are at the repository root.

@@ -1,17 +1,8 @@
 #!/usr/bin/env node
 
-const fs = require("fs");
-const path = require("path");
 const { execFile } = require("child_process");
 
-const rootDir = path.resolve(__dirname, "..");
-const appFile = path.join(rootDir, "index.html");
-
-function fileUrl(filePath) {
-  const resolved = path.resolve(filePath).replace(/\\/g, "/");
-  const prefix = resolved.startsWith("/") ? "file://" : "file:///";
-  return prefix + encodeURI(resolved);
-}
+const siteUrl = "https://kappaemme-git.github.io/codex-fm/";
 
 function openUrl(url) {
   const platform = process.platform;
@@ -44,11 +35,5 @@ function openUrl(url) {
   run(0);
 }
 
-if (!fs.existsSync(appFile)) {
-  console.error(`Codex FM asset not found: ${appFile}`);
-  process.exit(1);
-}
-
-const url = fileUrl(appFile);
-openUrl(url);
-console.log(`Codex FM opened at ${url}`);
+openUrl(siteUrl);
+console.log(`Codex FM opened at ${siteUrl}`);
